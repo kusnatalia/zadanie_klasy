@@ -21,7 +21,7 @@ class Samochod:
         self.dodatkowe_parametry[nazwa] = wartosc
 
 # Przykład użycia klasy Samochod:
-auto = Samochod("Fiat", "Punto", 2010, "czerwony", 100000, 15000)
-auto.zmien_kolor("zielony")
-auto.dodaj_parametr("Moc", "75 KM")
+auto = Samochod("Fiat", "Punto", 2016, "fioletowy", 100000, 16000)
+auto.zmien_kolor("czerwony")
+auto.dodaj_parametr("Moc", "79 KM")
 print(auto)
